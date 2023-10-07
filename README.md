@@ -31,7 +31,7 @@ Okay, I get your point - automatic, in-vehicle payments/security solutions right
 
 ## Demo
 
-Wanna understand the project in and out in a few minutes? What better than a short film, made by none other than the team Mission 2023.
+Wanna understand the project in and out in a few minutes? What better than a short film, made by none other than the team PlatePay.
 
 https://drive.google.com/file/d/14HF-6GS6S3dvVPSmPQA_Ye7PWejUjGuk/view?usp=sharing
 

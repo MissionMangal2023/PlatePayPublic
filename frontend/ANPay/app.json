@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "ANPay",
+    "scheme": "anpr_pay",
+    "slug": "ANPay",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.ANPay"
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "package": "com.anonymous.ANPay",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "746a7d01-ea3c-4f2e-9fad-7ecc30d5b4f6"
+      }
+    }
+  }
+}

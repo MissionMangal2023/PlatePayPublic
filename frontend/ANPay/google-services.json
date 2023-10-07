@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "754818483536",
+    "project_id": "platepay-335ae",
+    "storage_bucket": "platepay-335ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754818483536:android:f5f4765d84158cd1eb1855",
+        "android_client_info": {
+          "package_name": "com.anonymous.ANPay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754818483536-ovtqps4993rtkb6fj7bv1c8a1bii9sgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAckYarFxIW2q6qV4fKl9XzYykUCbHSvGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754818483536-ovtqps4993rtkb6fj7bv1c8a1bii9sgm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

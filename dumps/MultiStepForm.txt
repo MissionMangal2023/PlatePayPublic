@@ -1,0 +1,111 @@
+const StepIndicator = ({ step }) => {
+    // console.log(step, (((step - 1) * 100) / 3).toString().slice(0, 6) + "%");
+    // console.log(step, step - 1, leftPosition[step - 1]);
+    console.log(step - 1);
+    const leftPosition = ["0%", "50%", "100%"];
+
+    return (
+        <View
+            style={{
+                position: "absolute",
+                backgroundColor: "white",
+                // textAlign: "center",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                width: 30,
+                height: 30,
+                borderRadius: 30,
+                // color: "red",
+                // fontSize: 30,
+                left: leftPosition[step - 1],
+                transform: [{ translateX: "-50%" }],
+                top: "50%",
+            }}
+        >
+            <Text
+                style={{
+                    textAlign: "center",
+                    color: "red",
+                    fontSize: 30,
+                }}
+            >
+                {step}
+            </Text>
+        </View>
+    );
+};
+
+// import ImagePicker, {
+//     launchCamera,
+//     launchImageLibrary,
+// } from "react-native-image-picker";
+
+
+
+
+{/* <StepIndicator step="1" />
+<StepIndicator step="2" />
+<StepIndicator step="3" /> */}
+
+
+<IconButton
+    bgColor="rgba(25, 25, 25, 0.5)"
+    ref={clearButton}
+    style={{
+        position: "absolute",
+        top: "50%",
+        left: "50%",
+        transform: [{ translate: [-8, -8] }],
+    }}
+    icon={
+        <Icon
+            size="md"
+            as={MaterialIcons}
+            name="clear"
+            color="white"
+        />
+    }
+    onPress={() => {
+        console.log("hello");
+    }}
+/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            // setTimeout(() => {
+            // imaginary 4s delay in fetching data
+
+            // assuming, the response is success and there is no error
+            //     if (!errorsTest) {
+            //         // we set errors to null
+            //         setErrors([]);
+
+            //         // store the obtained lp in the state
+            //         setNewLPData((lpData) => ({
+            //             ...lpData,
+            //             numberPlateText: "GA 07 E 7660",
+            //         }));
+            //     } else {
+            //         // An error occured
+            //         addErrorMessage(
+            //             "This number plate has criminal record",
+            //             setErrors
+            //         );
+            //     }
+            // }, 4000);

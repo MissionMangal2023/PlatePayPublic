@@ -55,4 +55,4 @@ To build the apps and features shown above, the following technologies were used
 
 ## License
 
-MIT
+Apache 2.0 Licence. (All rights reserved - Commercial Use of Code is prohibited)
